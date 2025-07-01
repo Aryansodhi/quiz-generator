@@ -4,10 +4,18 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
 
 ## Features
 
-- Supports `.txt`, `.pdf`, `.docx`
-- Locally runs using Ollama (no API needed)
-- Interactive Streamlit UI
-- Toggle answers for self-assessment
+- Supports `.pdf`, `.docx`, `.txt` files
+- Automatically generates questions, options, and answers
+- Clean web interface using Streamlit
+- No OpenAI API key required — runs fully locally using Ollama
+- Hide/show answers for self-testing
+
+## Requirements
+
+- Python 3.9+
+- [Ollama](https://ollama.com/download)
+- `mistral` model (default, you can use others)
+- Streamlit
 
 ## Setup Instructions
 
@@ -21,6 +29,7 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
    ```bash
    python -m venv venv
    venv\Scripts\activate  # On Windows
+   source venv/bin/activate # On Linux/MacOS
    ```
 
 3. Install dependencies:
@@ -35,8 +44,9 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
 
 5. Run the app:
    ```bash
-   streamlit run app.py
+   python start_and_watch.py
    ```
+   This will open the web UI in your browser at http://localhost:8501
 
 ## Folder Structure
 
@@ -51,9 +61,3 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
 │   └── ...
 └── ollama/
 ```
-
-## Requirements
-
-- Python 3.9+
-- [Ollama](https://ollama.com/)
-- Streamlit
