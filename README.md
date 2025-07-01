@@ -54,10 +54,10 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
 .
 ├── app.py
 ├── requirements.txt
-├── start_and_watch.py
+├── start.py
 ├── utils/
 │   ├── qg_ollama.py
 │   ├── loader.py
-│   └── ...
+│   └── concept_extractor.py
 └── ollama/
 ```
