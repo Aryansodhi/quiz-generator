@@ -44,7 +44,7 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
 
 5. Run the app:
    ```bash
-   python start_and_watch.py
+   python start.py
    ```
    This will open the web UI in your browser at http://localhost:8501
 
