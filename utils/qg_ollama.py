@@ -61,7 +61,7 @@ def generate_mcq_ollama(input_text, num_questions: int = 3):
         text = load_text(input_text)  # from UploadFile-like object
 
     if not text.strip():
-        print("⚠️ Input file is empty or unreadable.")
+        print("Input file is empty or unreadable.")
         return []
 
     print("Generating questions... (via Ollama)")
@@ -89,7 +89,7 @@ Passage:
 
     parsed = parse_mcqs(raw_output)
     if not parsed:
-        print("⚠️ No valid MCQs parsed—see RAW OUTPUT above for troubleshooting.")
+        print("No valid MCQs parsed—see RAW OUTPUT above for troubleshooting.")
         return []
 
     print("\n=== PARSED QUIZZES ===")
