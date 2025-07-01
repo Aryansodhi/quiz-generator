@@ -41,6 +41,7 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
    ```bash
    ollama run mistral
    ```
+   (You must download [Ollama](https://ollama.com/download) before this!)
 
 5. Run the app:
    ```bash
