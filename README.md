@@ -1,15 +1,15 @@
-# 🧠 MCQ Generator with Ollama + Streamlit
+# MCQ Generator with Ollama + Streamlit
 
 This project allows users to generate multiple-choice questions (MCQs) from `.txt`, `.pdf`, and `.docx` files using a local LLM via Ollama (Mistral) and a user-friendly Streamlit interface.
 
-## 🚀 Features
+## Features
 
 - Supports `.txt`, `.pdf`, `.docx`
 - Locally runs using Ollama (no API needed)
 - Interactive Streamlit UI
 - Toggle answers for self-assessment
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repository:
    ```bash
@@ -38,7 +38,7 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
    streamlit run app.py
    ```
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 .
@@ -52,12 +52,8 @@ This project allows users to generate multiple-choice questions (MCQs) from `.tx
 └── ollama/
 ```
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.9+
 - [Ollama](https://ollama.com/)
 - Streamlit
-
-## 📄 License
-
-MIT
